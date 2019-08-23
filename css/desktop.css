@@ -1,0 +1,740 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,400');
+
+
+.bp2-desktop {
+  width               : 100%;
+  min-width           : 1024px;
+  height              : 100vh;
+  min-height          : 1418px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(33, 33, 33, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-desktop .bp2-image {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 442px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-desktop .bp2-image .bp2-mask {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 442px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-desktop .bp2-image .bp2-toronto1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -563px;
+  height              : 1042px;
+  width               : 1559px;
+  position            : absolute;
+  margin              : 0;
+  left                : -267px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-desktop .bp2-image .bp2-rectangle {
+  background-color    : rgba(118, 118, 118, 1.0);
+  width               : 100%;
+  height              : 486px;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.34;
+}
+.bp2-desktop .bp2-image .bp2-rectangle-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0;
+  height              : 100%;
+  width               : 100%;
+  justify-content     : center;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0px;
+}
+.bp2-desktop .bp2-rectangle2 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 1024px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-desktop .bp2-rectangle2 .bp2-rectangle {
+  background-color    : rgba(34, 34, 34, 1.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-desktop .bp2-rectangle2 .bp2-menu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : calc(100.00% - 34px);
+  width               : calc(100.00% - 978px);
+  position            : absolute;
+  margin              : 0;
+  left                : 701px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-desktop .bp2-rectangle2 .bp2-city {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : calc(100.00% - 34px);
+  width               : calc(100.00% - 992px);
+  position            : absolute;
+  margin              : 0;
+  left                : 819px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-desktop .bp2-rectangle2 .bp2-settings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : calc(100.00% - 34px);
+  width               : calc(100.00% - 956px);
+  position            : absolute;
+  margin              : 0;
+  left                : 911px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp2-desktop .bp2-torontoistheprovi {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 620px;
+  height              : auto;
+  width               : 687px;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 21.0px;
+}
+.bp2-desktop .bp2-cityoftoronto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 195px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 161px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 82.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 96.0px;
+}
+.bp2-desktop .bp2-cityoftoronto:hover {
+  transform           : scale(1.1);
+}
+.bp2-desktop .bp2-toronto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 570px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 21.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : left;
+  line-height         : 24.0px;
+}
+.bp2-desktop .bp2-torontoimage {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 884px;
+  height              : 459px;
+  width               : 687px;
+  position            : absolute;
+  margin              : 0;
+  left                : 169px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp1-iphonexs {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 1324px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(34, 34, 34, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-iphonexs .bp1-group {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : stretch;
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 489px;
+  height              : auto;
+  width               : calc(100.00% - 108px);
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-group .bp1-stackedgroup {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : flex-start;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  margin              : 0;
+  height              : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-group .bp1-stackedgroup .bp1-toronto {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.bp1-iphonexs .bp1-group .bp1-stackedgroup3 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : stretch;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  margin              : 8px 0 0 0;
+  height              : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-group .bp1-stackedgroup3 .bp1-torontoistheprovi {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  margin              : 0;
+  height              : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 21.0px;
+}
+.bp1-iphonexs .bp1-group .bp1-stackedgroup2 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : stretch;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  margin              : 8px 0 0 0;
+  height              : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-group .bp1-stackedgroup2 .bp1-stackedgroup1 {
+  display             : flex;
+  justify-content     : flex-start;
+  flex-direction      : column;
+  align-items         : stretch;
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  margin              : 0;
+  height              : auto;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-group .bp1-stackedgroup2 .bp1-stackedgroup1 .bp1-torontoimagecopy {
+  background-color    : rgba(255,255,255,0.0);
+  position            : relative;
+  height              : auto;
+  margin              : 0;
+  width               : 100%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-image {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 1486px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-image-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : -600px;
+  align-items         : center;
+  height              : 1042px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-iphonexs .bp1-image .bp1-group1 {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  overflow            : hidden;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-image .bp1-group1 .bp1-mask {
+  background-color    : rgba(215, 215, 215, 1.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-image .bp1-group1 .bp1-toronto {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 100%;
+  width               : calc(100.00% + 73px);
+  position            : absolute;
+  margin              : 0;
+  left                : -36px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+}
+.bp1-iphonexs .bp1-image .bp1-group1 .bp1-toronto:hover {
+  transform           : scale(1.1);
+}
+.bp1-iphonexs .bp1-image .bp1-group1 .bp1-rectangle1 {
+  background-color    : rgba(119, 119, 119, 1.0);
+  top                 : -0px;
+  height              : calc(100.00% + 1px);
+  box-sizing          : border-box;
+  width               : calc(100.00% - 35px);
+  position            : absolute;
+  margin              : 0;
+  left                : 18px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.34;
+}
+.bp1-iphonexs .bp1-image .bp1-group1 .bp1-cityoftoronto {
+  background-color    : rgba(255,255,255,0.0);
+  width               : auto;
+  margin-right        : 8px;
+  height              : auto;
+  pointer-events      : auto;
+  margin-left         : -8px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 36.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : justify;
+  line-height         : 42.0px;
+}
+.bp1-iphonexs .bp1-image .bp1-group1 .bp1-cityoftoronto-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 798px;
+  align-items         : center;
+  height              : auto;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.bp1-iphonexs .bp1-image .bp1-group1 .bp1-cityoftoronto:hover {
+  transform           : scale(1.1);
+}
+.bp1-iphonexs .bp1-rectangle {
+  background-color    : rgba(34, 34, 34, 1.0);
+  top                 : 0px;
+  height              : 55px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-iphonexs .bp1-menu {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : calc(100.00% - 1303px);
+  width               : calc(100.00% - 329px);
+  position            : absolute;
+  margin              : 0;
+  left                : 54px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-iphonexs .bp1-menu:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.bp1-iphonexs .bp1-city {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : calc(100.00% - 1303px);
+  width               : calc(100.00% - 343px);
+  position            : absolute;
+  margin              : 0;
+  left                : 172px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-iphonexs .bp1-city:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.bp1-iphonexs .bp1-settings {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 17px;
+  height              : calc(100.00% - 1303px);
+  width               : calc(100.00% - 307px);
+  position            : absolute;
+  margin              : 0;
+  left                : 264px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease-in-out;
+  font-family         : "Roboto", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(255, 255, 255, 1.0);
+  text-align          : center;
+  line-height         : 21.0px;
+}
+.bp1-iphonexs .bp1-settings:hover {
+  box-shadow          : 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 1023px) {
+  .bp1-iphonexs {
+    display             : block;
+  }
+  .bp2-desktop {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bp1-iphonexs {
+    display             : none;
+  }
+  .bp2-desktop {
+    display             : block;
+  }
+}

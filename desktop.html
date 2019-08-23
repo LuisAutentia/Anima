@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/desktop.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author">
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(33, 33, 33, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="desktop"/>
+        <div class="bp2-desktop">
+            <div style="width: 1024px; height: 100%; position:relative; margin:auto;">
+                <div class="bp2-image">
+                    <div class="bp2-mask">
+                    </div>
+                    <img anima-src="./img/desktop-toronto.png" class="bp2-toronto1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp2-rectangle-layout-container">
+                        <div class="bp2-rectangle">
+                        </div>
+                    </div>
+                </div>
+                <div class="bp2-rectangle2">
+                    <div class="bp2-rectangle">
+                    </div>
+                    <div class="bp2-menu">
+                        Menu
+                    </div>
+                    <div class="bp2-city">
+                        City
+                    </div>
+                    <div class="bp2-settings">
+                        Settings
+                    </div>
+                </div>
+                <div class="bp2-torontoistheprovi">
+                    Toronto is the provincial capital of Ontario and the most populous city in Canada, with a population of 2,731,571 in 2016. Current to 2016, the Toronto census metropolitan area (CMA), of which the majority is within the Greater Toronto Area (GTA), held a population of 5,928,040, making it Canada's most populous CMA. <br /><br />People have travelled through and inhabited the Toronto area, situated on a broad sloping plateau interspersed with rivers, deep ravines, and urban forest, for more than 10,000 years.[17] After the broadly disputed Toronto Purchase, when the Mississauga surrendered the area to the British Crown,[18] the British established the town of York in 1793 and later designated it as the capital of Upper Canada.<br /><br />
+                </div>
+                <div class="bp2-cityoftoronto">
+                    CITY OF TORONTO
+                </div>
+                <div class="bp2-toronto">
+                    TORONTO
+                </div>
+                <img anima-src="./img/desktop-torontoimage.png" class="bp2-torontoimage" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+            </div>
+        </div>
+        <div class="bp1-iphonexs">
+            <div class="bp1-group">
+                <div class="bp1-stackedgroup">
+                    <div class="bp1-toronto">
+                        TORONTO
+                    </div>
+                </div>
+                <div class="bp1-stackedgroup3">
+                    <div class="bp1-torontoistheprovi">
+                        Toronto is the provincial capital of Ontario and the most populous city in Canada, with a population of 2,731,571 in 2016. Current to 2016, the Toronto census metropolitan area (CMA), of which the majority is within the Greater Toronto Area (GTA), held a population of 5,928,040, making it Canada's most populous CMA.<br /><br />People have travelled through and inhabited the Toronto area, situated on a broad sloping plateau interspersed with rivers, deep ravines, and urban forest, for more than 10,000 years.[17] After the broadly disputed Toronto Purchase, when the Mississauga surrendered the area to the British Crown,[18] the British established the town of York in 1793 and later designated it as the capital of Upper Canada.<br /><br />
+                    </div>
+                </div>
+                <div class="bp1-stackedgroup2">
+                    <div class="bp1-stackedgroup1">
+                        <img anima-src="./img/iphone-xs-torontoimage-copy@2x.png" class="bp1-torontoimagecopy" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    </div>
+                </div>
+            </div>
+            <div class="bp1-image-layout-container">
+                <div class="bp1-image">
+                    <div class="bp1-group1">
+                        <div class="bp1-mask">
+                        </div>
+                        <img anima-src="./img/desktop-toronto.png" class="bp1-toronto" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                        <div class="bp1-rectangle1">
+                        </div>
+                        <div class="bp1-cityoftoronto-layout-container">
+                            <div class="bp1-cityoftoronto">
+                                CITY OF TORONTO
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bp1-rectangle">
+            </div>
+            <div class="bp1-menu">
+                Menu
+            </div>
+            <div class="bp1-city">
+                City
+            </div>
+            <div class="bp1-settings">
+                Settings
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>
